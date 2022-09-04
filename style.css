@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.inner-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 380px;
+    border: 1px solid;
+}
+
+.inner-container div {
+    margin: 10px;
+    height: 25px;
+}
+
+.text {
+    width: 250px;
+}
+
+#btn {
+    align-self: center;
+    height: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
